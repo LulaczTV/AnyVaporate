@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MicroVaporate</RootNamespace>
-    <AssemblyName>MicroVaporate</AssemblyName>
+    <AssemblyName>PA-MicroVaporate</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,56 +31,73 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.0.0\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="CommandSystem.Core">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\CommandSystem.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Exiled.API, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\dependencies\Exiled.API.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\dependencies\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CreditTags, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.CreditTags.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomItems, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Assembly-CSharp-Publicized">
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\Assembly-CSharp-Publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.CustomItems.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\CommandSystem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomRoles, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.API, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.CustomRoles.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\dependencies\Exiled.API.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Events, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CreditTags, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.Events.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.CreditTags.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Permissions, Version=6.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CustomItems, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.Permissions.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.CustomItems.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Updater, Version=3.1.1.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CustomRoles, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.1.0\Exiled.Updater.dll</HintPath>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.CustomRoles.dll</HintPath>
     </Reference>
-    <Reference Include="Mirror">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\Mirror.dll</HintPath>
+    <Reference Include="Exiled.Events, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.Events.dll</HintPath>
     </Reference>
-    <Reference Include="PluginAPI">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\PluginAPI.dll</HintPath>
+    <Reference Include="Exiled.Loader, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="SemanticVersioning">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.0.0\EXILED\Plugins\dependencies\SemanticVersioning.dll</HintPath>
+    <Reference Include="Exiled.Permissions, Version=8.0.2.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\Exiled.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror.Components">
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\Mirror.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix, Version=7.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\dependencies\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthwoodLib">
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\NorthwoodLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PluginAPI, Version=12.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\PluginAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SemanticVersioning, Version=2.0.2.0, Culture=neutral, PublicKeyToken=a89bb7dc6f7a145c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\8.3.1\dependencies\SemanticVersioning.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -88,20 +105,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\UnityEngine.AnimationModule.dll</HintPath>
+    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\EXILED\6.0.0\EXILED\Plugins\dependencies\YamlDotNet.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\Pulpit\Frameworki\NWAPI\13.3.1\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
