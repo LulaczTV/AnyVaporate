@@ -15,7 +15,7 @@ namespace MicroVaporate
 
         public override string Name => "PA-MicroVaporate";
         public override string Author => "pan_andrzej";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 1, 0);
         public override Version RequiredExiledVersion => new Version(8, 8, 0);
 
         private EventHandlers EventHandler { get; set; }

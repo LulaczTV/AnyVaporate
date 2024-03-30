@@ -12,10 +12,13 @@ namespace MicroVaporate
     {
         public void OnDying(DyingEventArgs ev)
         {
-            if (ev.DamageHandler.Type == DamageType.MicroHid)
+            foreach(var damageType in Plugin.Instance.Config.damageTypes)
             {
-                ev.IsAllowed = false;
-                ev.Player.Vaporize();
+                if (ev.DamageHandler.Type == damageType)
+                {
+                    ev.IsAllowed = false;
+                    ev.Player.Vaporize();
+                }
             }
         }
     }
