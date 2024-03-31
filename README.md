@@ -1,2 +1,4 @@
 # MicroVaporate
-Exiled plugin. When you kill someone with a micro-hid, it's vaporizing him.
+**[EXILED](https://github.com/Exiled-Team/EXILED) must be installed for this to work.**
+
+Basically, [insert here anything that can kill you] instead of killing a person, desintegrates him.
