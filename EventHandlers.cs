@@ -14,7 +14,7 @@ namespace MicroVaporate
         {
             foreach(var damageType in Plugin.Instance.Config.damageTypes)
             {
-                if (ev.DamageHandler.Type == damageType)
+                if (ev.DamageHandler.Type == damageType && ev.DamageHandler.Type != DamageType.ParticleDisruptor)
                 {
                     ev.IsAllowed = false;
                     ev.Player.Vaporize();
