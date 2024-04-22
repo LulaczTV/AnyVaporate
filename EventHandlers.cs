@@ -12,9 +12,21 @@ namespace MicroVaporate
     {
         public void OnDying(DyingEventArgs ev)
         {
-            foreach(var damageType in Plugin.Instance.Config.damageTypes)
+            foreach(var damageType in Plugin.Instance.Config.KillDamageTypes)
             {
                 if (ev.DamageHandler.Type == damageType && ev.DamageHandler.Type != DamageType.ParticleDisruptor)
+                {
+                    ev.IsAllowed = false;
+                    ev.Player.Vaporize();
+                }
+            }
+        }
+
+        public void OnHurting(HurtingEventArgs ev)
+        {
+            foreach (var damageType in Plugin.Instance.Config.DamageTypes)
+            {
+                if (ev.DamageHandler.Type == damageType)
                 {
                     ev.IsAllowed = false;
                     ev.Player.Vaporize();

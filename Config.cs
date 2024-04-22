@@ -16,7 +16,12 @@ namespace MicroVaporate
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
         [Description("Which DamageTypes should vaporize player on dying?")]
-        public List<DamageType> damageTypes { get; set; } = new List<DamageType>()
+        public List<DamageType> KillDamageTypes { get; set; } = new List<DamageType>()
+        {
+            DamageType.MicroHid,
+        };
+        [Description("Which DamageTypes should vaporize player on dealt damage?")]
+        public List<DamageType> DamageTypes { get; set; } = new List<DamageType>()
         {
             DamageType.MicroHid,
         };

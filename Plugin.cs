@@ -43,12 +43,13 @@ namespace MicroVaporate
         private void RegisterEvents()
         {
             Exiled.Events.Handlers.Player.Dying += EventHandler.OnDying;
+            Exiled.Events.Handlers.Player.Hurting += EventHandler.OnHurting;
         }
 
         private void UnregisterEvents()
         {
             Exiled.Events.Handlers.Player.Dying -= EventHandler.OnDying;
-
+            Exiled.Events.Handlers.Player.Hurting -= EventHandler.OnHurting;
         }
     }
 }
